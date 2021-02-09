@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body {
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+    font-size: 14pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bokeh.jpg);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#container{
+    width: 768px;
+    height: auto;
+    background-color: #ffffff;    
+    margin:auto;
+}
+aside {
+    width: 150px;
+    height: 1600px;
+    float: left;
+    background-color: #787878;
+}
+header {
+    width: 768px;
+    height: 220px;
+    background-image: url(header.jpg);
+        margin:auto;
+
+}
+ul{
+    
+}
+main {
+    width: 578px;
+    height: 600px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+article {
+    margin-bottom: 30px;
+}
+
+
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+	background-color: #787878;
+
+}
+h1 {
+    font-family: aguafina-script;
+    color: #6DE7FF;
+    font-style: normal;
+    font-weight: 400;
+}
+h3 {
+    font-size: 22px;
+}
+
+.floatLeft{
+	float: left;
+}
+nav {
+    width: 769px;
+    height: 50px;
+    
+    
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    float: left;
+    width: 60px;
+    font-family: cinque-donne, serif;
+    font-size: 25px;
+}
+#container nav ul{
+    width: 600px;
+    margin-left: 150px;
+    display: block;
+    list-style-type: none;
+    float: left;
+}
+a:link {
+    color: #6DE7FF;
+    text-decoration: none;
+	padding: 10px;
+}
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color: #65EBFB;
+	padding:10px;
+	border-radius: 20px;
+}
+a:visited {
+    color: #4A0A6B;
+    text-decoration: none;
+}
+a:active {
+    color: #525252;
+    text-decoration: none;
+}
+.submit_btn {
+    width: 191px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #6DE7FF;
+    color: #FFFFFF;
+    font-size: large;
+   
+}
+
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 5px 35px 1px #000000;
+    box-shadow: 6px 5px 35px 1px #000000;
+}
+h1 {
+    width: px;
+}
